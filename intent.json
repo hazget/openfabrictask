@@ -1,0 +1,229 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "Science question 1",
+        "patterns": [
+          "What is Science?",
+          "Define Science.",
+          "What do you know about science?",
+          "do you know science?"
+        ],
+        "responses": [
+          "the systematic study of the structure and behaviour of the physical and natural world through observation, experimentation, and the testing of theories against the evidence obtained.the world of science and technology"
+        ]
+      },
+      {
+        "tag":"Biology question 1",
+        "patterns":[
+            "What is Biology",
+            "Do you know Biology",
+            "define biology"
+        ],
+        "responses":[
+            "the study of living organisms, divided into many specialized fields that cover their morphology, physiology, anatomy, behaviour, origin, and distribution"
+        ]
+      },
+      {
+        "tag":"Chemistry question 1",
+        "patterns":[
+            "Define Chemistry",
+            "do you know chemistry?",
+            "what is chemistry"
+        ],
+        "responses":[
+            "the branch of science concerned with the substances of which matter is composed, the investigation of their properties and reactions, and the use of such reactions to form new substances."
+        ]
+
+      },
+      {
+        "tag":"physics question 1",
+        "patterns":[
+            "Define physics",
+            "do you know physics",
+            "what do you know about physics",
+            "what is physics"
+        ],
+        "responses":[
+            "Physics is the branch of science that deals with the structure of matter and how the fundamental constituents of the universe interact. It studies objects ranging from the very small using quantum mechanics to the entire universe using general relativity."
+        ]
+        
+      },
+      {
+        "tag":"physics question 2",
+        "patterns":[
+            "what are the laws of motion",
+            "do you know the laws of motion",
+            "explain the laws of motion"
+        ],
+        "responses":[
+            "In the first law, an object will not change its motion unless a force acts on it. In the second law, the force on an object is equal to its mass times its acceleration. In the third law, when two objects interact, they apply forces to each other of equal magnitude and opposite direction."
+        ]
+      },
+      {
+        "tag":"Biology question 2",
+        "patterns":[
+            "What is DNA",
+            "What do you know about DNA",
+            "Defina DNA"
+        ],
+        "responses":[
+            "DNA is called Deoxyribonucleic acid, the molecule inside cells that contains the genetic information responsible for the development and function of an organism. DNA molecules allow this information to be passed from one generation to the next."
+        ]
+      },
+      {
+        "tag":"Biology question 3",
+        "patterns":[
+            "what are sporophyll",
+            "define sporophyll"
+        ],
+        "responses":[
+            "Sporophyll are eaves with associated sporangia."
+        ]
+      },
+      {
+        "tag":"Biology question 4",
+        "patterns":[
+            "Which is the first oxygen-producing organism",
+            "what are cyanobacteria"
+        ],
+        "responses":[
+            "Autotrophic cyanobacteria"
+        ]
+      },
+      {
+        "tag":"Biology question 5",
+        "patterns":[
+            "what is reproduction",
+            "define reproduction",
+            "what do you know about reproduction"
+        ],
+        "responses":[
+            "A living thing has the ability to produce copies of itself by the process known as reproduction. These copies are made while the organism is still living. Among plants and simple animals, reproduction is often an extension of the growth process. More complex organisms engage in a type of reproduction called sexual reproduction, in which two parents contribute to the formation of a new individual. During this process, a new combination of traits can be produced."
+        ]
+      },
+      {
+        "tag":"Biology question 6",
+        "patterns":[
+            "what is Evolution",
+            "what do you know about Evolution",
+            "define evolution"
+        ],
+        "responses":[
+            "Living organisms have the ability to adapt to their environment through the process of evolution. During evolution, changes occur in populations, and the organisms in the population become better able to metabolize, respond, and reproduce. They develop abilities to cope with their environment that their ancestors did not have."
+        ]
+      },
+      {
+        "tag":"Biology question 7",
+        "patterns":[
+            "what is ecology",
+            "define ecology",
+            "what do you know about ecology"
+        ],
+        "responses":[
+            "The environment influences the living things that it surrounds. Ecology is the study of relationships between organisms and their relationships with their environment. Both biotic factors (living things) and abiotic factors (nonliving things) can alter the environment. Rain and sunlight are non-living components, for example, that greatly influence the environment. Living things may migrate or hibernate if the environment becomes difficult to live in."
+        ]
+      },
+      {
+        "tag":"Chemistry question 2",
+        "patterns":[
+            "define atom",
+            "what is an atom",
+            "what do you know about atom"
+        ],
+        "responses":[
+            "An atom is a particle of matter that uniquely defines a chemical element. An atom consists of a central nucleus that is surrounded by one or more negatively charged electrons. The nucleus is positively charged and contains one or more relatively heavy particles known as protons and neutrons."
+        ]
+      },
+      {
+        "tag":"Chemistry question 3",
+        "patterns":[
+            "define bohr atomic model",
+            "do you know bohr model",
+            "what is bohr model"
+        ],
+        "responses":[
+            "In 1913, Niels Bohr proposed a theory for the hydrogen atom, based on quantum theory that some physical quantities only take discrete values. Electrons move around a nucleus, but only in prescribed orbits, and If electrons jump to a lower-energy orbit, the difference is sent out as radiation."
+        ]
+      },
+      {
+        "tag":"Chemistry question 4 ",
+        "patterns":[
+            "what is radio activity",
+            "define radio activity",
+            "what do you know about radio activity"
+        ],
+        "responses":[
+            "Radioactivity is the phenomenon of the spontaneous disintegration of unstable atomic nuclei to atomic nuclei to form more energetically stable atomic nuclei. Radioactive decay is a highly exoergic, statistically random, first-order process that occurs with a small amount of mass being converted to energy."
+        ]
+      },
+      {
+        "tag":"Chemistry question 5 ",
+        "patterns":[
+            "what is organic chemistry",
+            "define organic chemistry",
+            "what do you know about organic chemistry"
+        ],
+        "responses":[
+            "Organic chemistry is the study of the structure, properties, composition, reactions, and preparation of carbon-containing compounds. Most organic compounds contain carbon and hydrogen, but they may also include any number of other elements (e.g., nitrogen, oxygen, halogens, phosphorus, silicon, sulfur)."
+        ]
+      },
+      {
+        "tag":"Physics question 3",
+        "patterns":[
+            "what is thermodynamics?",
+            "define thermodynamics",
+            "what do you know about thermodynamics?"
+        ],
+        "responses":[
+            "the branch of physical science that deals with the relations between heat and other forms of energy (such as mechanical, electrical, or chemical energy), and, by extension, of the relationships between all forms of energy."
+        ]
+      },
+      {
+        "tag":"Physics question 4",
+        "patterns":[
+            "what is intertia?",
+            "define intertia",
+            "why first law of motion is called law of interia?"
+
+        ],
+        "responses":[
+            "Inertia is a property of matter that causes it to resist changes in velocity (speed and/or direction). According to Newton's first law of motion, an object with a given velocity maintains that velocity unless acted on by an external force. Inertia is the property of matter that makes this law hold true."
+        ]
+      }
+
+
+    
+    ]
+  }
+  
